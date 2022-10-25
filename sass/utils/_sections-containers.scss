@@ -1,0 +1,85 @@
+//Header
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.container.header-container {
+  display: flex;
+  align-items: center;
+}
+
+//Hero
+
+.hero .container {
+  text-align: center;
+}
+
+//Principles
+
+.principles {
+  padding: 94px 0;
+}
+
+//Neon
+
+.neon {
+  padding-bottom: 94px;
+}
+
+//Team
+
+.team {
+  padding: 94px 0;
+  background: map-get($colors, background-color-two);
+}
+
+//Companies
+
+.companies {
+  padding: 94px 0;
+}
+
+//Menu
+
+.menu {
+  padding: 94px 0;
+}
+
+//Work-list
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+//Footer
+
+.footer {
+  padding: 60px 0;
+  background: map-get($colors, background-color-footer);
+}
+
+.footer > .container {
+  display: flex;
+  align-items: baseline;
+}
+
+//Modal
+
+.modal {
+  position: absolute;
+  padding: 40px;
+  top: 50%;
+  left: 50%;
+  width: 528px;
+  height: 581px;
+
+  border-radius: 4px;
+
+  transform: translate(-50%, -50%);
+  background-color: map-get($colors, white-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
