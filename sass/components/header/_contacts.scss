@@ -1,0 +1,38 @@
+.address {
+  display: none;
+  // display: flex;
+  // align-items: center;
+  // margin-left: auto;
+  // gap: 30px;
+}
+
+// .address__contacts {
+//   display: flex;
+//   align-items: center;
+
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.02em;
+
+//   color: map-get($colors, secondary-text-color);
+//   fill: currentColor;
+//   transition: color 250ms map-get($cubic, cubic);
+
+//   &:hover,
+//   &:focus {
+//     color: map-get($colors, main-blue-color);
+//   }
+// }
+
+// .icon-smartphone {
+//   width: 10px;
+//   height: 16px;
+//   margin-right: 10px;
+// }
+
+// .icon-envelope {
+//   width: 16px;
+//   height: 12px;
+//   margin-right: 10px;
+// }

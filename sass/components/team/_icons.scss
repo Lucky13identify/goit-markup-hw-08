@@ -1,0 +1,36 @@
+.social-network {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-network__link {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50px;
+
+  color: map-get($colors, inks-color);
+  transition: color 250ms map-get($cubic, cubic),
+    background-color 250ms map-get($cubic, cubic);
+
+  &:hover,
+  &:focus {
+    background-color: map-get($colors, main-blue-color);
+    color: map-get($colors, white-text-color);
+  }
+}
+
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedin {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}

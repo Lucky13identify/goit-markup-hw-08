@@ -1,0 +1,73 @@
+.box-mailing {
+  margin-left: auto;
+}
+
+.box-mailing__text {
+  // margin-bottom: 20px;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.14;
+
+  color: map-get($colors, white-text-color);
+}
+
+.box-mailing__form {
+  // display: flex;
+}
+
+.box-mailing__input {
+  display: block;
+  margin: 20px auto;
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+
+  outline: transparent;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: map-get($colors, background-color-footer);
+  color: map-get($colors, white-text-color);
+  transition: border-color 250ms map-get($cubic, cubic);
+
+  &:focus,
+  &:hover {
+    cursor: pointer;
+    border-color: map-get($colors, main-blue-color);
+  }
+}
+
+.box-mailing__button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  // margin-left: 12px;
+  padding-left: 28px;
+  width: 200px;
+  height: 50px;
+
+  cursor: pointer;
+  border-radius: 4px;
+  border-color: transparent;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  background-color: map-get($colors, main-blue-color);
+  color: map-get($colors, white-text-color);
+  transition: background-color 250ms map-get($cubic, cubic);
+
+  &:focus,
+  &:hover {
+    background-color: map-get($colors, button-hover);
+  }
+}
+
+.icon-plane {
+  margin-left: 10px;
+}

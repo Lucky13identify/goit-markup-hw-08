@@ -4,10 +4,10 @@
   border-bottom: 1px solid #ececec;
 }
 
-.container.header-container {
-  display: flex;
-  align-items: center;
-}
+// .container.header-container {
+//   display: flex;
+//   align-items: center;
+// }
 
 //Hero
 
@@ -15,66 +15,68 @@
   text-align: center;
 }
 
-//Principles
+// //Principles
 
 .principles {
-  padding: 94px 0;
+  padding: 60px 0;
 }
 
 //Neon
 
 .neon {
-  padding-bottom: 94px;
+  display: none;
+  // padding-bottom: 94px;
 }
 
 //Team
 
 .team {
-  padding: 94px 0;
+  padding: 60px 0;
   background: map-get($colors, background-color-two);
 }
 
 //Companies
 
 .companies {
-  padding: 94px 0;
+  padding: 60px 0;
 }
 
 //Menu
 
 .menu {
-  padding: 94px 0;
+  padding: 60px 0;
 }
 
-//Work-list
+// //Work-list
 
-.work-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 50px;
-}
+// .work-list {
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin-top: 50px;
+// }
 
-//Footer
+// //Footer
 
 .footer {
+  text-align: center;
   padding: 60px 0;
   background: map-get($colors, background-color-footer);
 }
 
-.footer > .container {
-  display: flex;
-  align-items: baseline;
-}
+// .footer > .container {
+//   display: flex;
+//   align-items: baseline;
+// }
 
-//Modal
+// //Modal
 
 .modal {
   position: absolute;
   padding: 40px;
   top: 50%;
   left: 50%;
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
 
   border-radius: 4px;
 

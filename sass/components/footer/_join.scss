@@ -1,0 +1,32 @@
+.join-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.join-container__text {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.14;
+
+  color: map-get($colors, white-text-color);
+}
+
+.social-network__link--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+
+  background: rgba(255, 255, 255, 0.1);
+  color: map-get($colors, white-text-color);
+  transition: background-color 250ms map-get($cubic, cubic);
+
+  &:hover,
+  &:focus {
+    background-color: map-get($colors, main-blue-color);
+  }
+}

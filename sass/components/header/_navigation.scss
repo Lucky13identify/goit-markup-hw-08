@@ -1,0 +1,69 @@
+.navigation-header__list-block {
+  display: none;
+  // display: flex;
+  // align-items: center;
+  // gap: 50px;
+}
+
+// .navigation-header__page {
+//   display: block;
+//   position: relative;
+//   padding-bottom: 33px;
+//   padding-top: 33px;
+
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.02em;
+
+//   transition: color 250ms map-get($cubic, cubic);
+//   color: map-get($colors, primary-text-color);
+
+//   &:hover,
+//   &:focus {
+//     color: map-get($colors, main-blue-color);
+//   }
+
+//   &::after {
+//     content: "";
+//     position: absolute;
+//     width: 100%;
+//     height: 4px;
+//     left: 0;
+//     bottom: 0;
+
+//     border-radius: 2px;
+
+//     background-color: map-get($colors, main-blue-color);
+//     transition: transform 250ms map-get($cubic, cubic);
+//     transform: scaleX(0);
+//   }
+
+//   &:hover::after {
+//     transform: scaleX(1);
+//   }
+// }
+
+// .navigation-header__page--current {
+//   position: relative;
+
+//   padding-bottom: 33px;
+//   padding-top: 33px;
+
+//   color: map-get($colors, main-blue-color);
+
+//   &::after {
+//     content: "";
+//     position: absolute;
+//     width: 100%;
+//     height: 4px;
+//     left: 0;
+//     bottom: 0;
+
+//     background-color: map-get($colors, main-blue-color);
+//     border-radius: 2px;
+
+//     transition: transform 250ms map-get($cubic, cubic);
+//     transform: scaleX(1);
+//   }
+// }

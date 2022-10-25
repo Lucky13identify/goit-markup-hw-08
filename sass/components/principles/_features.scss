@@ -1,0 +1,41 @@
+.features__head {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.features__text {
+  line-height: 1.71;
+
+  color: map-get($colors, secondary-text-color);
+}
+
+// .features {
+//   // display: flex;
+//   // gap: 30px;
+// }
+
+.features__list {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  // width: 270px;
+}
+
+.features__border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  border-radius: 4px;
+
+  background-color: map-get($colors, background-color-two);
+}
