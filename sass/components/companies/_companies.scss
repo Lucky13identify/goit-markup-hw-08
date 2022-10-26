@@ -22,4 +22,10 @@
     border-color: map-get($colors, main-blue-color);
     fill: map-get($colors, main-blue-color);
   }
+
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }

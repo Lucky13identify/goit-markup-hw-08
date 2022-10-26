@@ -2,6 +2,13 @@
   margin-top: 40px;
   column-gap: 30px;
   row-gap: 30px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .work-list__list {
@@ -12,6 +19,17 @@
   }
   &:not(:last-child) {
     margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    height: 440px;
+
+    &:not(:last-child) {
+      margin-bottom: 0px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
   }
 }
 

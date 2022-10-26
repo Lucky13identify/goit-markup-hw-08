@@ -1,6 +1,14 @@
 .join-container {
   margin-top: 60px;
   margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    align-items: baseline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .join-container__text {

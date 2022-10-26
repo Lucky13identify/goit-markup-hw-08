@@ -11,6 +11,11 @@
   letter-spacing: 0.03em;
 
   color: map-get($colors, main-blue-color);
+
+  @media screen and (min-width: 768px) {
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
 }
 
 // .navigation-header {
