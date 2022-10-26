@@ -9,6 +9,13 @@
   text-transform: uppercase;
 
   color: map-get($colors, white-text-color);
+
+  @media screen and (min-width: 1200px) {
+    width: 696px;
+
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .hero-button {
@@ -41,6 +48,10 @@
 .hero {
   padding: 118px 0;
   background-color: map-get($colors, background-color-footer);
+
+  @media screen and (min-width: 1200px) {
+    padding: 200px 0;
+  }
 }
 
 .overlay {
@@ -61,5 +72,7 @@
     max-width: 768px;
   }
   @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+    height: 600px;
   }
 }
