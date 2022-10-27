@@ -1,0 +1,80 @@
+.button-navigation .icon-close {
+  display: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.button-navigation.is-open .icon-close {
+  display: block;
+}
+
+.button-navigation.is-open .icon-menu {
+  display: none;
+}
+
+.header-container {
+  position: relative;
+}
+
+.mobile-navigation {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.mobile-menu.is-open .mobile-navigation {
+  display: block;
+}
+
+.button-flex {
+  display: flex;
+}
+
+.icons-header {
+  height: 40px;
+}
+
+.button-navigation.is-open {
+  margin-left: 385px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.button-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+
+  background-color: transparent;
+  border: none;
+
+  &:hover,
+  &:focus {
+    fill: map-get($colors, main-blue-color);
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.mobile-menu.is-open {
+  position: absolute;
+  overflow: auto;
+  padding: 10px 40px 48px;
+  padding-right: 15px;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+    0px 1px 3px rgba(0, 0, 0, 0.16);
+  width: 100%;
+  height: 100vh;
+}

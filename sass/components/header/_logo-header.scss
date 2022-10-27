@@ -1,6 +1,6 @@
 .navigation-header__logo {
   display: block;
-  margin-right: 93px;
+  margin-right: 276px;
   margin-top: 16px;
   margin-bottom: 16px;
 
@@ -13,10 +13,12 @@
   color: map-get($colors, main-blue-color);
 
   @media screen and (min-width: 768px) {
+    margin-right: 88px;
     margin-top: 26px;
     margin-bottom: 26px;
   }
   @media screen and (min-width: 1200px) {
+    margin-right: 93px;
     margin-top: 24px;
     margin-bottom: 25px;
 
@@ -25,10 +27,12 @@
   }
 }
 
-// .navigation-header {
-//   display: flex;
-//   align-items: center;
-// }
+.navigation-header {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
+}
 
 .navigation-header__logo--black {
   color: map-get($colors, web-color);
