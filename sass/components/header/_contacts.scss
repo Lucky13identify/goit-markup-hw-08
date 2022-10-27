@@ -1,7 +1,6 @@
 .address {
   margin-top: 306px;
   margin-bottom: 64px;
-  margin-left: 90px;
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -10,13 +9,14 @@
 
     margin-top: 21px;
     margin-bottom: 21px;
+    margin-left: 96px;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: row-reverse;
-    margin: 0px;
+
     align-items: center;
-    margin-left: auto;
+    margin-left: 341px;
     gap: 30px;
   }
 }
@@ -27,6 +27,10 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
     margin-top: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin: 0;
   }
 }
 
@@ -81,6 +85,13 @@
       color: map-get($colors, main-blue-color);
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
 }
 
 .icon-smartphone {
@@ -91,6 +102,10 @@
     height: 14px;
     margin-right: 8px;
   }
+  @media screen and (min-width: 1200px) {
+    height: 16px;
+    margin-right: 10px;
+  }
 }
 
 .icon-envelope {
@@ -100,6 +115,10 @@
     width: 16px;
     height: 12px;
     margin-right: 8px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 10px;
   }
 }
 .social-navigation {
