@@ -163,27 +163,43 @@
           <h2 class="occupation">Чим ми займаємося</h2>
           <ul class="perfomance">
             <li class="perfomance__list">
-              <img
-                src="./images/box1.jpg"
-                alt="Людина працює за комп'ютером"
-                width="370"
-              />
+              <picture
+                ><source
+                  srcset="
+                    ./images/neon1-desktop.jpg    1x,
+                    ./images/neon1-desktop@2x.jpg 2x
+                  " />
+                <img
+                  src="./images/neon1-desktop.jpg"
+                  alt="Людина працює за комп'ютером"
+              /></picture>
               <p class="perfomance__text">Десктопні додатки</p>
             </li>
             <li class="perfomance__list">
-              <img
-                src="./images/box2.jpg"
-                alt="Людина працює на телефоні"
-                width="370"
-              />
+              <picture
+                ><source
+                  srcset="
+                    ./images/neon2-desktop.jpg    1x,
+                    ./images/neon2-desktop@2x.jpg 2x
+                  " />
+                <img
+                  src="./images/neon2-desktop.jpg"
+                  alt="Людина працює на
+                телефоні"
+              /></picture>
               <p class="perfomance__text">Мобільні додатки</p>
             </li>
             <li class="perfomance__list">
-              <img
-                src="./images/box3.jpg"
-                alt="Людина працює на планшеті"
-                width="370"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/neon3-desktop.jpg    1x,
+                    ./images/neon3-desktop@2x.jpg 2x
+                  " />
+                <img
+                  src="./images/neon3-desktop.jpg"
+                  alt="Людина працює на планшеті"
+              /></picture>
               <p class="perfomance__text">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -196,7 +212,27 @@
           <h2 class="team-our">Наша команда</h2>
           <ul class="crew">
             <li class="crew__list">
-              <img src="./images/img.jpg" alt="Ігор Дем'яненко" width="270" />
+              <picture
+                ><source
+                  srcset="
+                    ./images/ihor-desktop.jpg    1x,
+                    ./images/ihor-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)" />
+                <source
+                  srcset="
+                    ./images/ihor-tablet.jpg    1x,
+                    ./images/ihor-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./images/ihor-mobile.jpg    1x,
+                    ./images/ihor-mobile@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)" />
+                <img src="./images/ihor-desktop.jpg" alt="Ігор Дем'яненко"
+              /></picture>
               <div class="crew__container">
                 <h3 class="crew__human">Ігор Дем'яненко</h3>
                 <p class="crew__text" lang="en">Product Designer</p>
@@ -256,7 +292,28 @@
               </div>
             </li>
             <li class="crew__list">
-              <img src="./images/img1.jpg" alt="Ольга Рєпіна" width="270" />
+              <picture
+                ><source
+                  srcset="
+                    ./images/olha-desktop.jpg    1x,
+                    ./images/olha-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)" />
+                <source
+                  srcset="
+                    ./images/olha-tablet.jpg    1x,
+                    ./images/olha-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./images/olha-mobile.jpg    1x,
+                    ./images/olha-mobile@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)" />
+                <img src="./images/olha-desktop.jpg" alt="Ольга Рєпіна"
+              /></picture>
+
               <div class="crew__container">
                 <h3 class="crew__human">Ольга Рєпіна</h3>
                 <p class="crew__text" lang="en">Frontend Developer</p>
@@ -316,7 +373,27 @@
               </div>
             </li>
             <li class="crew__list">
-              <img src="./images/img2.jpg" alt="Микола Тарасов" width="270" />
+              <picture
+                ><source
+                  srcset="
+                    ./images/nikol-desktop.jpg    1x,
+                    ./images/nikol-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)" />
+                <source
+                  srcset="
+                    ./images/nikol-tablet.jpg    1x,
+                    ./images/nikol-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./images/nikol-mobile.jpg    1x,
+                    ./images/nikol-mobile@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)" />
+                <img src="./images/nikol-desktop.jpg" alt="Мікола Тарасов"
+              /></picture>
               <div class="crew__container">
                 <h3 class="crew__human">Микола Тарасов</h3>
                 <p class="crew__text" lang="en">Marketing</p>
@@ -376,7 +453,27 @@
               </div>
             </li>
             <li class="crew__list">
-              <img src="./images/img3.jpg" alt="Михайло Єрмаков" width="270" />
+              <picture
+                ><source
+                  srcset="
+                    ./images/mike-desktop.jpg    1x,
+                    ./images/mike-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)" />
+                <source
+                  srcset="
+                    ./images/mike-tablet.jpg    1x,
+                    ./images/mike-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)" />
+                <source
+                  srcset="
+                    ./images/mike-mobile.jpg    1x,
+                    ./images/mike-mobile@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)" />
+                <img src="./images/mike-desktop.jpg" alt="Михайло Єрмаков"
+              /></picture>
               <div class="crew__container">
                 <h3 class="crew__human">Михайло Єрмаков</h3>
                 <p class="crew__text" lang="en">UI Designer</p>

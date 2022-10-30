@@ -68,6 +68,7 @@
 .mobile-menu.is-open {
   position: absolute;
   overflow: auto;
+  z-index: 1;
   padding: 10px 40px 48px;
   padding-right: 15px;
   top: 0;
