@@ -6,7 +6,6 @@
 
 .container.header-container {
   display: flex;
-  // align-items: center;
 }
 
 //Hero
@@ -48,6 +47,7 @@
 
 .companies {
   padding: 60px 0;
+
   @media screen and (min-width: 1200px) {
     padding: 94px 0;
   }
@@ -57,25 +57,17 @@
 
 .menu {
   padding: 60px 0;
+
   @media screen and (min-width: 1200px) {
     padding: 94px 0;
   }
 }
 
-// //Work-list
-
-// .work-list {
-//   display: flex;
-//   flex-wrap: wrap;
-//   margin-top: 50px;
-// }
-
-// //Footer
-
 .footer {
   text-align: center;
   padding: 60px 0;
   background: map-get($colors, background-color-footer);
+
   @media screen and (min-width: 1200px) {
     text-align: left;
   }

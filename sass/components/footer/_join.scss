@@ -3,9 +3,10 @@
   margin-bottom: 60px;
 
   @media screen and (min-width: 768px) {
-    align-items: baseline;
     margin-top: 0px;
     margin-bottom: 0px;
+
+    align-items: baseline;
   }
   @media screen and (min-width: 1200px) {
     margin-left: 70px;

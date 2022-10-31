@@ -47,6 +47,7 @@
 
 .hero {
   padding: 118px 0;
+
   background-color: map-get($colors, background-color-footer);
 
   @media screen and (min-width: 1200px) {
@@ -55,9 +56,10 @@
 }
 
 .overlay {
+  margin: 0 auto;
+
   max-width: 480px;
   height: 400px;
-  margin: 0 auto;
 
   background-image: linear-gradient(
       to right,

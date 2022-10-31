@@ -14,7 +14,6 @@
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: row-reverse;
-
     align-items: center;
     margin-left: 341px;
     gap: 30px;
@@ -43,6 +42,7 @@
 
   @media screen and (min-width: 768px) {
     display: flex;
+
     font-size: 12px;
     line-height: 1.16;
 
@@ -66,6 +66,7 @@
 
 .address__contacts--font {
   display: flex;
+
   font-weight: 500;
   font-size: 34px;
   line-height: 1.18;
@@ -96,11 +97,13 @@
 
 .icon-smartphone {
   display: none;
+
   @media screen and (min-width: 768px) {
     display: block;
+    margin-right: 8px;
+
     width: 10px;
     height: 14px;
-    margin-right: 8px;
   }
   @media screen and (min-width: 1200px) {
     height: 16px;
@@ -112,9 +115,9 @@
   display: none;
   @media screen and (min-width: 768px) {
     display: block;
+    margin-right: 8px;
     width: 16px;
     height: 12px;
-    margin-right: 8px;
   }
 
   @media screen and (min-width: 1200px) {
