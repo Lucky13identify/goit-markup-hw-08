@@ -571,6 +571,10 @@ img {
   max-width: 100%;
 }
 
+button {
+  padding: 0;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
