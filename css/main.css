@@ -694,14 +694,20 @@ img {
   padding: 40px;
   top: 50%;
   left: 50%;
-  width: 450px;
-  height: 609px;
+  width: 300px;
+  height: 650px;
   border-radius: 4px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background-color: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal {
@@ -726,7 +732,7 @@ img {
 
 .navigation-header__logo {
   display: block;
-  margin-right: 276px;
+  margin-right: auto;
   margin-top: 16px;
   margin-bottom: 16px;
   font-family: Raleway, sans-serif;
@@ -919,7 +925,7 @@ img {
 }
 
 .address {
-  margin-top: 306px;
+  margin-top: auto;
   margin-bottom: 64px;
 }
 @media screen and (min-width: 768px) {
@@ -1074,6 +1080,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 10px;
   font-size: 18px;
   line-height: 1.22;
@@ -1125,7 +1133,14 @@ img {
 }
 
 .mobile-menu.is-open .mobile-navigation {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
 }
 
 .button-flex {
@@ -1139,7 +1154,7 @@ img {
 }
 
 .button-navigation.is-open {
-  margin-left: 385px;
+  margin-left: auto;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -1186,7 +1201,6 @@ img {
 }
 
 .hero-head {
-  width: 360px;
   margin: 0 auto;
   font-weight: 900;
   font-size: 26px;
@@ -1297,6 +1311,12 @@ img {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .features__list:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
 .features__text {
   line-height: 1.71;
   color: #757575;
@@ -1336,7 +1356,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 450px;
+  width: 100%;
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
@@ -1427,7 +1447,6 @@ img {
 }
 
 .crew__list {
-  width: 450px;
   background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1465,6 +1484,7 @@ img {
 }
 
 .crew__text {
+  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -1520,6 +1540,9 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 30px;
 }
 
@@ -1562,7 +1585,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 8px 15px;
+  gap: 15px 8px;
 }
 @media screen and (min-width: 768px) {
   .top-bar {
@@ -1610,11 +1633,17 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work-list {
+    margin-top: 50px;
   }
 }
 
 .work-list__list {
-  width: 450px;
+  width: 100% x;
 }
 .work-list__list:hover .img-thumb::before {
   -webkit-transform: translateY(0);
@@ -1888,7 +1917,7 @@ img {
   display: block;
   margin: 20px auto;
   padding-left: 16px;
-  width: 358px;
+  width: 100%;
   height: 50px;
   outline: transparent;
   border-radius: 4px;
@@ -1904,9 +1933,15 @@ img {
   cursor: pointer;
   border-color: #2196f3;
 }
+@media screen and (min-width: 768px) {
+  .box-mailing__input {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .box-mailing__input {
     margin: 0;
+    width: 358px;
   }
 }
 
@@ -2016,9 +2051,8 @@ img {
 .form__field input:focus, .form__field input:hover {
   border-color: #2196f3;
 }
-
 .form__field input {
-  width: 370px;
+  width: 100%;
   height: 40px;
   padding-left: 42px;
   outline: transparent;
@@ -2054,7 +2088,7 @@ img {
 textarea {
   padding-left: 10px;
   padding-top: 10px;
-  width: 370px;
+  width: 100%;
   height: 120px;
   border-radius: 4px;
   resize: none;

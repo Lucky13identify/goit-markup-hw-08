@@ -1,5 +1,5 @@
 .address {
-  margin-top: 306px;
+  margin-top: auto;
   margin-bottom: 64px;
 
   @media screen and (min-width: 768px) {
@@ -126,6 +126,7 @@
 }
 .social-navigation {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 
   font-size: 18px;

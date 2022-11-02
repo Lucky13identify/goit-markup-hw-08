@@ -27,7 +27,9 @@
 }
 
 .mobile-menu.is-open .mobile-navigation {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .button-flex {
@@ -39,7 +41,7 @@
 }
 
 .button-navigation.is-open {
-  margin-left: 385px;
+  margin-left: auto;
   margin-top: 0px;
   margin-bottom: 0px;
 }
