@@ -1213,6 +1213,11 @@ button {
   text-transform: uppercase;
   color: #ffffff;
 }
+@media screen and (min-width: 768px) {
+  .hero-head {
+    width: 360px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero-head {
     width: 696px;
